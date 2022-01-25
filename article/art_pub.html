@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/assets/lib/layui/css/layui.css">
-    <link rel="stylesheet" href="/assets/css/article/art_pub.css">
-    <link rel="stylesheet" href="/assets/lib/cropper/cropper.css" />
+    <link rel="stylesheet" href="/大事件项目/assets/lib/layui/css/layui.css">
+    <link rel="stylesheet" href="/大事件项目/assets/css/article/art_pub.css">
+    <link rel="stylesheet" href="/大事件项目/assets/lib/cropper/cropper.css" />
 </head>
 
 <body>
@@ -22,7 +22,8 @@
                 <div class="layui-form-item">
                     <label class="layui-form-label">文章标题</label>
                     <div class="layui-input-block">
-                        <input type="text" name="title" required lay-verify="required" placeholder="请输入标题" autocomplete="off" class="layui-input" />
+                        <input type="text" name="title" required lay-verify="required" placeholder="请输入标题"
+                            autocomplete="off" class="layui-input" />
                     </div>
                 </div>
                 <!-- 第二行 -->
@@ -50,7 +51,7 @@
                     <div class="layui-input-block cover-box">
                         <!-- 左侧裁剪区域 -->
                         <div class="cover-left">
-                            <img id="image" src="/assets/images/sample2.jpg" alt="" />
+                            <img id="image" src="/大事件项目/assets/images/sample2.jpg" alt="" />
                         </div>
                         <!-- 右侧预览区域和选择封面区域 -->
                         <div class="cover-right">
@@ -58,9 +59,10 @@
                             <div class="img-preview"></div>
                             <!-- 选择封面按钮 -->
                             <button type="button" class="layui-btn layui-btn-danger" id="btnChooseImage">选择封面
-                        </button>
+                            </button>
                             <!-- 隐藏的文件选择框 -->
-                            <input type="file" id="coverFile" style="display: none;" accept="image/png,image/jpeg,image/gif">
+                            <input type="file" id="coverFile" style="display: none;"
+                                accept="image/png,image/jpeg,image/gif">
                         </div>
                     </div>
                 </div>
@@ -81,17 +83,17 @@
         <option value="{{$value.Id}}">{{$value.name}}</option>
         {{/each}}
     </script>
-    <script src="/assets/lib/layui/layui.all.js"></script>
-    <script src="/assets/lib/jquery.js"></script>
-    <script src="/assets/js/baseAPI.js"></script>
-    <script src="/assets/lib/template-web.js"></script>
+    <script src="/大事件项目/assets/lib/layui/layui.all.js"></script>
+    <script src="/大事件项目/assets/lib/jquery.js"></script>
+    <script src="/大事件项目/assets/js/baseAPI.js"></script>
+    <script src="/大事件项目/assets/lib/template-web.js"></script>
     <!-- 富文本 -->
-    <script src="/assets/lib/tinymce/tinymce.min.js"></script>
-    <script src="/assets/lib/tinymce/tinymce_setup.js"></script>
+    <script src="/大事件项目/assets/lib/tinymce/tinymce.min.js"></script>
+    <script src="/大事件项目/assets/lib/tinymce/tinymce_setup.js"></script>
     <!-- 导入corpper相关的脚本 -->
-    <script src="/assets/lib/cropper/Cropper.js"></script>
-    <script src="/assets/lib/cropper/jquery-cropper.js"></script>
-    <script src="/assets/js/article/art_pub.js"></script>
+    <script src="/大事件项目/assets/lib/cropper/Cropper.js"></script>
+    <script src="/大事件项目/assets/lib/cropper/jquery-cropper.js"></script>
+    <script src="/大事件项目/assets/js/article/art_pub.js"></script>
 </body>
 
 </html>
